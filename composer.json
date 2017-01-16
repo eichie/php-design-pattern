@@ -1,0 +1,35 @@
+{
+  "name": "eichie/php-design-pattern",
+  "description": "PHP Entwurfsmuster lernen und verstehen",
+  "keywords": ["kata","TDD"],
+  "homepage": "https://github.com/eichie/php-design-pattern",
+  "minimum-stability": "dev",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "5.7.*@dev",
+    "mockery/mockery": "dev-master@dev",
+    "phpspec/phpspec": "3.0.*@dev"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Eichholtz",
+      "email": "info@eichie.de",
+      "homepage": "http://www.eichie.de",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DesignPattern\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DesignPattern\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
